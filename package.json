@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "babel server.js -d dist",
     "start": "npm run build && nodemon dist/server.js",
-    "json:server": "json-server --watch db.json"
+    "json:server": "json-server --watch db.json",
+    "dev": "nodemon server.js"
   },
   "repository": {
     "type": "git",
